@@ -19,7 +19,6 @@ public class ApplicationLogic1 implements iApplicationLogic {
     @Override
     public ArrayList<Course> getAllCourses() {
         ArrayList<Course> allCourses = this.database.getAllCourses();
-        //TODO: Sort Course by name
         return allCourses;
     }
 

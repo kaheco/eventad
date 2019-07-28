@@ -28,7 +28,7 @@ public class DBConnection {
                     System.out.println("connection object created.");
                 }
             }
-        }else{
+        } else {
             System.out.println("Connection object exists!");
         }
         return INSTANCE;
